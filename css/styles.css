@@ -1,0 +1,519 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+
+
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px
+   }
+/* These are the fonts I used to style text */
+@font-face {
+    font-family: RobotoRegular;
+    src: url(./Roboto/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(./Roboto/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url(./Roboto/Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: ComicSansMs3;
+    src: url(./Comicsans/ComicSansMS3.ttf);
+}
+
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  
+}
+/* This is my css navifation styling */
+nav{
+    background-color: #48BAF7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 121px;
+    width: 100%;
+   
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family:RobotoRegular;
+    font-size: 20px;
+    margin-right: 26px;
+
+}
+/* This is the logo of my page */
+.logo{
+    font-family: ComicSansMs3;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 40px;
+}
+/* This code contains all the css to hold the image and style it */
+.hero .img-holder{
+    background-image: linear-gradient(rgba(72,186,247,0.13),rgba(72, 186, 247, 0.13)),url(../images/businessman-hand-touch-with-code-html-and-programming-on-screen-laptop-programmer-development-computer-code-web-design-coding-technology-in-software-digital-software-technology-development-iot-photo.jpg);
+    height: 614px;
+    width: 100%;
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+}
+
+.herotext-holder{
+    font-family: ComicSansMs3;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+       
+        height: 194px;
+       
+        padding-top: 60px;
+        color: white;
+       
+        
+       
+}
+
+.main-header{
+    font-family: ComicSansMs3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+
+    
+}
+
+.home-line{
+    border:none;
+    border-bottom:solid 2px white;;
+width: 80%;
+margin: 0 auto;
+
+
+
+}
+
+.secondText{
+    font-family: ComicSansMs3;
+    margin: 0 auto;
+        font-size: 20px;
+       margin-top: 10%;
+       width: 60%;
+    margin-bottom: 3%;
+}
+
+.work-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.work{
+    font-family: ComicSansMs3;
+    font-size: 20px;
+background-color: white;
+width: 13%;
+height: 40px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.work a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-image:url(../images/blueSea.jpg);
+    background-size: cover;
+    background-position: center;
+        background-repeat: no-repeat;
+       
+width: 100%;
+
+
+}
+.icons{
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+   width: 10%;
+   /* background-color: red; */
+   margin: 0 auto;
+   padding-top: 2%;
+   
+ 
+}
+/* This contains icons for the footer */
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.fa.fa-github{
+    
+   font-size: 25px;
+
+    
+}
+.fa.fa-linkedin {
+
+    font-size: 25px;
+   
+
+}
+
+.fa.fa-envelope{
+    font-size: 20px;
+   
+}
+.footertext{
+ 
+   height: 53px; 
+   text-align: center;
+    font-family: RobotoRegular;
+    font-size: 20px;
+    color: white;
+    padding-left: 211px;
+    padding-right: 75px;
+/* padding-top: 81px; */
+
+
+}
+
+/* This the styling for my about me page */
+.main-section{
+   width: 100%;
+background-color: rgba(72, 186, 247, 0.41);
+min-height: 900px;
+   
+}
+
+
+
+.about-heading-box{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    margin-bottom: 5%;
+}
+
+h2{
+
+    height: 83px;
+    text-align: center;
+    font-family: ComicSansMs3;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+
+
+
+
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+width: 100%;
+/* background-color: red; */
+
+  
+}
+/* This code holds my about me image */
+.about-imageholder{
+    background-image: url(../images/1663792828057\ \(1\).jpg);
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 25% ;
+        height: 302px;
+        border-radius: 320px;
+     
+      
+}
+
+/* This contains the styling I use to style my about me text */
+.aboutText{
+    border: solid 5px black;
+    width: 60%;
+    height: 450px;
+    background-color: white;
+/* font-size: 23px;
+font-family: RobotoRegular;
+text-align: left;
+padding: 40px; */
+}
+.aboutText-box{
+    /* border: solid 5px black; */
+        width: 100%;
+        height: 395px;
+        background-color: white;
+        font-size: 20px;
+        font-family: RobotoRegular;
+        text-align: left;
+       padding: 5px;
+       font-family: RobotoMedium;
+}
+h3{
+    font-family: ComicSansMs3;
+  
+    height: 83px;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 23px;
+  margin-left: 350px;
+  color: white;
+
+}
+
+.contact-mini{
+    font-family: ComicSansMs3;
+    font-size: 25px;
+  
+}
+/* This containts styling for center the form */
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+/* This contains styling to make the input a block level element */
+input{
+    display: block;
+    margin: 20px;
+    width: 923px;
+    height: 90px;
+    border-radius: 8px;
+  border: white;
+ padding: 5px;
+
+}
+.comment-box{
+    display: block;
+        margin: 20px;
+        width: 923px;
+        height: 217px;
+        border-radius: 8px;
+}
+
+::placeholder {
+    color: black;
+    font-family: ComicSansMs3;;
+    font-size: 30px;
+   
+}
+/* This is the code that contains submit button styling */
+
+
+.sub-box{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.submit{
+   
+    cursor: pointer;
+    width: 20%;
+    height: 60px;
+    /* margin-left: 380px; */
+    background-color: #48BAF7;
+    /* font-family: RobotoRegular;
+    font-weight: bold;
+    font-style: italic; */
+    font-family:  ComicSansMs3;;
+    font-size: 30px;
+    color: white;
+    border-radius: 23px;
+    /* margin-top: 50px; */
+    border: none;
+   
+    
+   
+}
+
+.port-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* This is the styling for all the image boxes */
+.portfolio-box{
+    width: 80%;
+    min-height:900px;
+    display: flex;
+   justify-content: space-between;
+ margin-top: 10px;
+ 
+ 
+  flex-wrap: wrap;
+ 
+}
+
+.port-heading{
+    font-family: ComicSansMs3;
+   
+    font-weight: bold;
+    font-size: 60px;
+   
+   
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+.gameCatalog-container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/vector-blue-coffee-maker-with-bowl-top-it_176841-1266.avif);
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      border-radius:5px;
+    
+}
+/* This is the styling for the overlay  */
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 300px;
+        height: 300px;
+     
+        
+         background-color: rgba(0, 0, 0, 0.5); 
+        display: none;
+}
+
+/* This contains the code that allows me to hover on the image */
+.gameCatalog-container:hover .overlay{
+    display: block;
+
+}
+
+/* This code containains the styling for the text overlay */
+.overlay .desPort  {
+    font-size: 25px;
+    font-family: RobotoMedium;
+    width: 226px;
+    height: 195px;
+    padding: 30px;
+   
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+  
+}
+
+.desPort a{
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio-text a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio-text a {
+    text-decoration: none;
+  color: #000;
+}
+
+.movieCatalog-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/movieThumb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+border-radius:5px;
+
+}
+/* This contains the code that allows me to hover on the image */
+.movieCatalog-container:hover .overlay {
+    display: block;
+
+}
+
+.story-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/istockphoto-859300456-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:5px;
+
+}
+/* This contains the code that allows me to hover on the image */
+.story-container:hover .overlay {
+    display: block;
+
+}
+
+.soap-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/istockphoto-1403852655-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+border-radius:5px;
+
+}
+/* This contains the code that allows me to hover on the image */
+.soap-container:hover .overlay {
+    display: block;
+
+}
+/* This contain styling for the portfolio text */
+.portfolio-text{
+   
+  
+    width: 200px;
+    height: 39px;
+    font-family: RobotoMedium;
+    font-size: 30px;
+    text-align: center;
+    margin-left:40px;
+    margin-top: 340px;
+}
+
